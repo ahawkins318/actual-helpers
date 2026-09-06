@@ -76,6 +76,8 @@ web_modules/
 
 # Output of 'npm pack'
 *.tgz
+# except the vendored @actual-app/api build (kept in sync from actual's own build)
+!/vendor/actual-app-api.tgz
 
 # Yarn Integrity file
 .yarn-integrity
